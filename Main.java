@@ -28,6 +28,12 @@ public class Main {
             }
             myLinkedHashMap.add(word, value);
         }
+        System.out.println("Before removing 'avoidable':");
+        System.out.println(myLinkedHashMap);
+
+        System.out.println("\nTesting HashMap UC3:");
+        myLinkedHashMap.remove("avoidable");
+        System.out.println("After removing 'avoidable':");
         System.out.println(myLinkedHashMap);
     }
 }
