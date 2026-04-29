@@ -56,5 +56,13 @@ public class Main {
         myBinaryTree.add(67);
         int size = myBinaryTree.getSize();
         System.out.println("Size of the BST: " + size);
+
+        System.out.println("\nTesting BST UC3:");
+        boolean isFound = myBinaryTree.search(63);
+        if (isFound) {
+            System.out.println("Element 63 is found in the BST.");
+        } else {
+            System.out.println("Element 63 is not found in the BST.");
+        }
     }
 }
