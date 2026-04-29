@@ -35,5 +35,12 @@ public class Main {
         myLinkedHashMap.remove("avoidable");
         System.out.println("After removing 'avoidable':");
         System.out.println(myLinkedHashMap);
+
+        System.out.println("\nTesting BST UC1:");
+        MyBinaryTree<Integer> myBinaryTree = new MyBinaryTree<>();
+        myBinaryTree.add(56);
+        myBinaryTree.add(30);
+        myBinaryTree.add(70);
+        System.out.println("Added 56, 30, 70 to the BST.");
     }
 }
